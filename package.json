@@ -1,0 +1,22 @@
+{
+  "name": "pomodoro-timer-wwc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mharizanova8703/Pomodoro-Timer-WWC.git"
+  },
+  "author": "Mariya Harizanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mharizanova8703/Pomodoro-Timer-WWC/issues"
+  },
+  "homepage": "https://github.com/mharizanova8703/Pomodoro-Timer-WWC#readme",
+  "dependencies": {
+    "sass": "^1.65.1"
+  }
+}

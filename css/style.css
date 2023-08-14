@@ -1,0 +1,399 @@
+.font-b7 {
+  font-size: 0.7rem;
+}
+
+.font-b9 {
+  font-size: 0.9rem;
+}
+
+.font-xs {
+  font-size: 1rem;
+}
+
+.font-s {
+  font-size: 1.1rem;
+}
+
+.font-sm {
+  font-size: 1.2rem;
+}
+
+.font-smx {
+  font-size: 1.3rem;
+}
+
+.font-smd {
+  font-size: 1.5rem;
+}
+
+.font-lgsm {
+  font-size: 1.6rem;
+}
+
+.font-md {
+  font-size: 1.8rem;
+}
+
+.font-mmd {
+  font-size: 2.1rem;
+}
+
+.font-lmd {
+  font-size: 2.4rem;
+}
+
+.font-xlmd {
+  font-size: 2.8rem;
+}
+
+.font-xxlmd {
+  font-size: 3.2rem;
+}
+
+.font-slg {
+  font-size: 3.6rem;
+}
+
+.font-smlg {
+  font-size: 3.8rem;
+}
+
+.font-mlg {
+  font-size: 4rem;
+}
+
+.font-llg {
+  font-size: 4.6rem;
+}
+
+.font-lg {
+  font-size: 6rem;
+}
+
+.font-xlg {
+  font-size: 7.2rem;
+}
+
+.size-150 {
+  width: 150px;
+}
+
+.mx-lg-7 {
+  margin-left: 7rem !important;
+  margin-right: 7rem !important;
+}
+
+@media screen and (max-width: 1181px) {
+  .font-md {
+    font-size: 1.7rem;
+  }
+
+  .font-mmd {
+    font-size: 2rem;
+  }
+
+  .font-lmd {
+    font-size: 2.3rem;
+  }
+
+  .font-xlmd {
+    font-size: 2.6rem;
+  }
+
+  .font-xxlmd {
+    font-size: 2.9rem;
+  }
+
+  .font-slg {
+    font-size: 3.2rem;
+  }
+
+  .font-smlg {
+    font-size: 3.5rem;
+  }
+
+  .font-mlg {
+    font-size: 3.6rem;
+  }
+
+  .font-llg {
+    font-size: 4.4rem;
+  }
+
+  .font-lg {
+    font-size: 5.4rem;
+  }
+
+  .font-xlg {
+    font-size: 6.6rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .font-slg {
+    font-size: 3rem;
+  }
+
+  .font-smlg {
+    font-size: 3.2rem;
+  }
+
+  .font-mlg {
+    font-size: 3.3rem;
+  }
+
+  .font-llg {
+    font-size: 4rem;
+  }
+
+  .font-lg {
+    font-size: 5rem;
+  }
+
+  .font-xlg {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .font-xlg {
+    font-size: 5.6rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .font-xs {
+    font-size: 0.9rem;
+  }
+
+  .font-sm {
+    font-size: 1.1rem;
+  }
+
+  .font-smx {
+    font-size: 1rem;
+  }
+
+  .font-smd {
+    font-size: 1.1rem;
+  }
+
+  .font-lgsm {
+    font-size: 1.3rem;
+  }
+
+  .font-slg {
+    font-size: 2.8rem;
+  }
+
+  .font-smlg {
+    font-size: 2.9rem;
+  }
+
+  .font-mlg {
+    font-size: 3rem;
+  }
+
+  .font-llg {
+    font-size: 3.5rem;
+  }
+
+  .font-lg {
+    font-size: 4.4rem;
+  }
+
+  .font-xlg {
+    font-size: 5.4rem;
+  }
+
+  .font-md {
+    font-size: 1.1rem;
+  }
+
+  .font-mmd {
+    font-size: 1.7rem;
+  }
+
+  .font-lmd {
+    font-size: 2rem;
+  }
+
+  .font-xlmd {
+    font-size: 1.8rem;
+  }
+
+  .font-xxlmd {
+    font-size: 2rem;
+  }
+}
+.bg-pink {
+  background-color: #f7eced;
+}
+
+.bg-dark-pink {
+  background-color: #f9dce0;
+}
+
+.salmon {
+  color: #ea5e57;
+}
+
+.shade-pink {
+  color: #ff9dae;
+}
+
+.outline {
+  outline: 4px solid #f7eced;
+  border-radius: none;
+}
+
+.size {
+  width: 110px;
+}
+
+h1 {
+  width: 90%;
+  text-align: center;
+  border-bottom: 10px solid #ff9dae;
+  line-height: 0.1em;
+}
+
+h1 span {
+  background-color: #f7eced;
+  padding: 0 10px;
+}
+
+#time-left {
+  padding: 2.1rem;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  /* or inline-flex, depending on your layout */
+}
+
+#timer-image {
+  display: block;
+  width: 100px;
+  /* Adjust to your image size */
+  height: 100px;
+  /* Adjust to your image size */
+  border-radius: 50%;
+}
+
+.progress-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.progress {
+  position: absolute;
+  height: 100%;
+  clip: rect(0, 50px, 100px, 0);
+  /* Adjust these values */
+  border-radius: 50%;
+  background-color: #007bff;
+  /* Customize the color */
+}
+
+.wrapper {
+  background-color: #f7eced;
+  border-radius: 50%;
+  height: 100%;
+  background-image: url("../images/tomato (1).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+#time-left {
+  position: absolute;
+  margin: 3rem -3.5rem;
+}
+
+.loader {
+  padding: 10rem 10rem;
+  display: flex;
+  border: 16px solid #ff9dae;
+  border-radius: 50%;
+  animation: fill linear 3s;
+}
+
+@keyframes fill {
+  0% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+  }
+  12.5% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
+  }
+  25% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 120.71% 50%, 120.71% 50%, 120.71% 50%, 120.71% 50%, 100% 0%);
+  }
+  37.5% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0%);
+  }
+  50% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 50% 120.71%, 50% 120.71%, 50% 120.71%, 100% 100%, 100% 0%);
+  }
+  62.5% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 0% 100%, 0% 100%, 0% 100%, 100% 100%, 100% 0%);
+  }
+  75% {
+    clip-path: polygon(50% -20.71%, 50% 50%, -20.71% 50%, -20.71% 50%, 0% 100%, 100% 100%, 100% 0%);
+  }
+  87.5% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 0% 0%, 0% 0%, 0% 100%, 100% 100%, 100% 0%);
+  }
+  100% {
+    clip-path: polygon(50% -20.71%, 50% 50%, 50% -20.71%, 0% 0%, 0% 100%, 100% 100%, 100% 0%);
+  }
+}
+@media screen and (max-width: 640px) {
+  #main-box h1 {
+    width: 80%;
+  }
+
+  .wrapper {
+    background-color: #f7eced;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/tomato (1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+  }
+
+  #time-left {
+    margin-left: -4.4rem;
+    margin-top: -0.4rem;
+  }
+
+  .loader {
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    border: 16px solid #ff9dae;
+    border-radius: 50%;
+    animation: fill linear 3s;
+  }
+}
+.font-lobster {
+  font-family: "Lobster", cursive;
+}
+
+.font-monda {
+  font-family: "Monda", sans-serif;
+  font-weight: 700;
+}
+
+.font-monda-regular {
+  font-family: "Monda", sans-serif;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */

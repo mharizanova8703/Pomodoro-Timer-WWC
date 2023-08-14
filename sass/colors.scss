@@ -1,0 +1,177 @@
+.bg-pink {
+    background-color: #f7eced;
+}
+
+.bg-dark-pink {
+    background-color: #f9dce0;
+}
+
+.salmon {
+    color: #ea5e57;
+}
+
+.shade-pink {
+    color: #ff9dae;
+}
+
+.outline {
+    outline: 4px solid #f7eced;
+    border-radius: none;
+}
+
+.size {
+    width: 110px;
+}
+
+h1 {
+    width: 90%;
+    text-align: center;
+    border-bottom: 10px solid #ff9dae;
+    line-height: 0.1em;
+}
+
+h1 span {
+    background-color: #f7eced;
+    padding: 0 10px;
+}
+
+#time-left {
+    padding: 2.1rem;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    /* or inline-flex, depending on your layout */
+}
+
+#timer-image {
+    display: block;
+    width: 100px;
+    /* Adjust to your image size */
+    height: 100px;
+    /* Adjust to your image size */
+    border-radius: 50%;
+}
+
+.progress-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.progress {
+    position: absolute;
+
+    height: 100%;
+    clip: rect(0, 50px, 100px, 0);
+    /* Adjust these values */
+    border-radius: 50%;
+    background-color: #007bff;
+    /* Customize the color */
+}
+
+.wrapper {
+    background-color: #f7eced;
+    border-radius: 50%;
+
+    height: 100%;
+    background-image: url('../images/tomato\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+#time-left {
+  position: absolute;
+  margin: 3rem -3.5rem;
+}
+
+.loader {
+    padding: 10rem 10rem;
+    display: flex;
+    border: 16px solid #ff9dae;
+    border-radius: 50%;
+    // width: 100%;
+    // height: 100%;
+    animation: fill linear 3s;
+}
+
+@keyframes fill {
+    0% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+    }
+
+    12.5% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
+    }
+
+    25% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 120.71% 50%, 120.71% 50%, 120.71% 50%, 120.71% 50%, 100% 0%);
+    }
+
+    37.5% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0%);
+    }
+
+    50% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 50% 120.71%, 50% 120.71%, 50% 120.71%, 100% 100%, 100% 0%);
+    }
+
+    62.5% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 0% 100%, 0% 100%, 0% 100%, 100% 100%, 100% 0%);
+    }
+
+    75% {
+        clip-path: polygon(50% -20.71%, 50% 50%, -20.71% 50%, -20.71% 50%, 0% 100%, 100% 100%, 100% 0%);
+    }
+
+    87.5% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 0% 0%, 0% 0%, 0% 100%, 100% 100%, 100% 0%);
+    }
+
+    100% {
+        clip-path: polygon(50% -20.71%, 50% 50%, 50% -20.71%, 0% 0%, 0% 100%, 100% 100%, 100% 0%);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #main-box {
+        h1 {
+            width: 80%;
+
+        }
+    }
+
+    .wrapper {
+        background-color: #f7eced;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/tomato\ \(1\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30%;
+    }
+
+    #time-left {
+        margin-left: -4.4rem;
+        margin-top: -0.4rem;
+    }
+
+    .loader {
+        height: 100%;
+        width: 100%;
+        padding: 5rem;
+        display: flex;
+        border: 16px solid #ff9dae;
+        border-radius: 50%;
+        // width: 100%;
+        // height: 100%;
+        animation: fill linear 3s;
+    }
+}
